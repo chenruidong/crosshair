@@ -6,3 +6,9 @@ Usage:
 3. (optional) set keyboard shortcut to open crosshair.
 4. open crosshair to show vertical+horizontal lines at cursor location. It will move with your mouse.
 5. press any key to exit (accessibility priviledge is required).
+
+
+https://youtu.be/kO3ZDXgZRck
+
+<video src="https://youtu.be/kO3ZDXgZRck" controls="controls" style="max-width: 730px;">
+</video>
