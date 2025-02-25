@@ -11,6 +11,7 @@
 		51504D932D6CE08300CBEB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51504D922D6CE08300CBEB57 /* ViewController.swift */; };
 		51504D952D6CE08400CBEB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51504D942D6CE08400CBEB57 /* Assets.xcassets */; };
 		51504D982D6CE08400CBEB57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51504D962D6CE08400CBEB57 /* Main.storyboard */; };
+		51504DA02D6CE14D00CBEB57 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51504D9F2D6CE14D00CBEB57 /* OverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		51504D942D6CE08400CBEB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51504D972D6CE08400CBEB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51504D992D6CE08400CBEB57 /* crosshair.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = crosshair.entitlements; sourceTree = "<group>"; };
+		51504D9F2D6CE14D00CBEB57 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				51504D902D6CE08300CBEB57 /* AppDelegate.swift */,
+				51504D9F2D6CE14D00CBEB57 /* OverlayView.swift */,
 				51504D922D6CE08300CBEB57 /* ViewController.swift */,
 				51504D942D6CE08400CBEB57 /* Assets.xcassets */,
 				51504D962D6CE08400CBEB57 /* Main.storyboard */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51504DA02D6CE14D00CBEB57 /* OverlayView.swift in Sources */,
 				51504D932D6CE08300CBEB57 /* ViewController.swift in Sources */,
 				51504D912D6CE08300CBEB57 /* AppDelegate.swift in Sources */,
 			);
@@ -200,6 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LSUIElement = False;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,6 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LSUIElement = False;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -273,6 +279,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -298,6 +305,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
