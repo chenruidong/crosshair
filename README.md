@@ -10,5 +10,5 @@ Usage:
 
 https://youtu.be/kO3ZDXgZRck
 
-<video src="https://youtu.be/kO3ZDXgZRck" controls="controls" style="max-width: 730px;">
-</video>
+
+[![Demo](https://img.youtube.com/vi/kO3ZDXgZRck/maxresdefault.jpg)](https://www.youtube.com/watch?v=kO3ZDXgZRck)
